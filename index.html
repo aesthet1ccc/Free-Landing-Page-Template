@@ -14,16 +14,19 @@
  <body>
   
   <section class="container">
+    <button class="menu-button">
+      <img src="img/menu.svg" alt="icon: burger menu" class="menu_button_icon">
+    </button>
     <div class="line" style="border-bottom: solid 1px #333">
     <header class="link">
-      <p class="link_black"><b>Home</b></p> 
-      <p class="">About me</p>
-      <p class="">Skills</p>
-      <p class="">Portfolio</p>
-      <p class="link_gray">Contacts</p>
+      <a href="#Home"><p class="link_black"><b>Home</b></p></a>
+      <a href="#About__me"><p class="">About me</p></a>
+      <a href="#Skills"><p class="">Skills</p></a>
+      <a href="#Portfolio"><p class="">Portfolio</p></a>
+      <a href="#Contacts"><p class="link_gray">Contacts</p></a>
     </div>
     </header>
-    <div class="cover">
+    <div id="Home" class="cover">
       <div class="cover_text_block">
       <p class="cover_text"><b>Denis Novik</b></p>
       <p class="cover_text_1">UX | UI designer 24 years old, Minsk</p>
@@ -38,7 +41,7 @@
     
   </section>
     
-    <section class="section_about">
+    <section id="About__me" class="section_about">
       <h2 class="about_title section_title">About me</h2>
       <p class="about_text about_info " >Hi, I'm Denis – UX/UI designer from Minsk. 
         I'm interested in design and everything connected with it.</p>
@@ -49,7 +52,7 @@
 
     </section>
 
-    <section class="section_skills">
+    <section id="Skiils" class="section_skills">
       <div class="">
       <h2 class="skills_title section_title">Skills</h2>
       <p class="skills_subtitle">I work in such programs as</p>
@@ -83,7 +86,7 @@
     </div>
       </section>
     
-  <section class="container_portfolio">
+  <section id="Portfolio" class="container_portfolio">
 
         <h2 class="portfolio_title">Portfolio</h2>
        <div class="portfolio_example">
@@ -101,7 +104,7 @@
     </div>
 
   </section>
-  <section class="footer">
+  <section id="Contacts" class="footer">
     <h2 class="footer_title">Contacts</h2>
     <p class="footer_welcome">Want to know more or just chat? 
       You are welcome!</p>
